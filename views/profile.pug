@@ -1,0 +1,11 @@
+body
+    p Your name is: 
+        span= user.username
+    p You registred at 
+        span= user.date
+    a(href="/profile/edit") edit your information
+    br
+    form(action="/profile/" + user.username, method="post")
+        button(type="submit") delete your account
+    br
+    a(href="/") Homepage

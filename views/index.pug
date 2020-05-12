@@ -1,0 +1,13 @@
+body
+    span Hello 
+    if(user)
+        span= user.username
+    hr
+    if(!user)
+        a(href="/login") Login
+        span /
+        a(href="/register") Register
+    else
+        a(href='/profile/' + user.username) profile
+        span /
+        a(href='/logout') logout
