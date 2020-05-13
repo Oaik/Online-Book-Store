@@ -14,7 +14,7 @@ in order to intrect with database mongo must be installed which can be downloade
 make sure that mongo is running, in case you don't know wheather your database is running or not follow this instruction for <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows">winodw</a> or <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#start-mongodb">linux</a>
 
 ### installing dependices
-which can be easily done using `npm`
+which can be easily done using `npm` *if you installed node, npm will be installed*
 ```console
 $ npm install
 ```
